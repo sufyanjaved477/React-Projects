@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
@@ -44,3 +45,43 @@ function App() {
 }
 
 export default App;
+=======
+import './App.css'
+import Navbar from './Components/Navbar'
+import Home from './Components/Home'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import About from './Components/About'
+import Login from './Components/Login'
+import User from './Components/User'
+
+function App() {
+
+  const router = createBrowserRouter([
+    {path: '/',
+      element: <><Navbar/><Home/></>
+    },
+    {
+      path: "/about",
+      element: <><Navbar/> <About/></>
+    },
+    {
+      path: "/login",
+      element: <><Navbar/> <Login/></>
+    },
+    {
+      path: "/user/:username",
+      element: <><Navbar/> <User/></>
+    },
+  ])
+
+  return (
+    <>
+  
+     <RouterProvider router={router}/>  
+
+    </>
+  )
+}
+
+export default App
+>>>>>>> 64de79bce031613c8bfa75724442b477959630ba

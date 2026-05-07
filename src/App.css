@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -48,4 +49,28 @@ h3{
   width: 100%;
   max-height: 15px;
   
+=======
+ul{
+  display: flex;
+  gap: 34px;
+}
+
+
+
+
+
+ol{
+  list-style-type: decimal;
+
+}
+
+h1{
+  font-weight: bolder;
+}
+
+
+.red{
+  background-color: red;
+  color: white;
+>>>>>>> 64de79bce031613c8bfa75724442b477959630ba
 }
