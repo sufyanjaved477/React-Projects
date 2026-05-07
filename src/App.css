@@ -1,0 +1,23 @@
+ul{
+  display: flex;
+  gap: 34px;
+}
+
+
+
+
+
+ol{
+  list-style-type: decimal;
+
+}
+
+h1{
+  font-weight: bolder;
+}
+
+
+.red{
+  background-color: red;
+  color: white;
+}
